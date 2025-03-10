@@ -35,5 +35,13 @@ public class Main {
         CompanyDao.getCompanies()
                 .stream()
                 .forEach(System.out::println);
+
+        CompanyDao.getCompanyEmployees(3)
+                .stream()
+                .forEach(System.out::println);
+
+        CompanyDao.getCompanyEmployeesDTO(3)
+                .stream()
+                .forEach(System.out::println);
     }
 }

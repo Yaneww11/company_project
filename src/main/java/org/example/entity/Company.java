@@ -51,6 +51,10 @@ public class Company {
         return name;
     }
 
+    public Set<Employee> getEmployees() {
+        return employees;
+    }
+
     public LocalDate getFoundationDate() {
         return foundationDate;
     }
